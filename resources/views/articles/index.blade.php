@@ -13,5 +13,7 @@
             <!-- // リンク先をidで取得し名前で出力 -->
             <li><a href="/articles/{{ $article->id }}">{{ $article->title }}</a></li>
         @endforeach
-    </ul></body>
+    </ul>
+    <button onclick="location.href='/articles/create'">新規論文投稿</button>
+</body>
 </html>
